@@ -1,0 +1,28 @@
+# Archivos de configuración de entorno
+.env
+.email-service.env
+
+# Dependencias Node.js
+node_modules/
+
+# Binarios compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos objeto
+*.o
+*.a
+
+# vendor si usas vendoring en Go
+vendor/
+
+# Logs y archivos temporales
+*.log
+*.swp
+*.swo
+
+# Caché de linters
+.golangci-lint-cache/
