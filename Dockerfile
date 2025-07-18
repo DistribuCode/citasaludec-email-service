@@ -8,7 +8,7 @@ RUN go mod download
 
 COPY . .
 
-RUN go build -ldflags="-s -w" -o email-service ./cmd
+RUN go build -ldflags="-s -w" -o email-service ./cmd && ls -l
 
 EXPOSE 4003
 
